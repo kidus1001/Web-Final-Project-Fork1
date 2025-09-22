@@ -199,11 +199,11 @@
                                 <i class="fas fa-user"></i>
                             </a>
                             <ul class="dropdown-menu dropdown-menu-end user-menu">
-                                <li><a class="dropdown-item" href="#"><i class="fas fa-user me-2"></i>My Account</a></li>
-                                <li><a class="dropdown-item" href="#"><i class="fas fa-box me-2"></i>Orders</a></li>
-                                <li><a class="dropdown-item" href="#"><i class="fas fa-heart me-2"></i>Wishlist</a></li>
+                                <li><a class="dropdown-item" href="Profile.html"><i class="fas fa-user me-2"></i>My Account</a></li>
+                                <li><a class="dropdown-item" href="Profile.html"><i class="fas fa-box me-2"></i>Orders</a></li>
+                                <li><a class="dropdown-item" href="Profile.html"><i class="fas fa-heart me-2"></i>Wishlist</a></li>
                                 <li><hr class="dropdown-divider"></li>
-                                <li><a class="dropdown-item text-danger" href="#"><i class="fas fa-sign-out-alt me-2"></i>Logout</a></li>
+                                <li><a class="dropdown-item text-danger" href="Auth/login.html"><i class="fas fa-sign-out-alt me-2"></i>Logout</a></li>
                             </ul>
                         </div>
                     </div>
@@ -221,22 +221,22 @@
             <div class="collapse navbar-collapse" id="mainNav">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link active" href="Home.html">Home</a>
+                        <a class="nav-link active" href="../Home.html">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="Home.html#new-arrivals">New Arrivals</a>
+                        <a class="nav-link" href="../Home.html#new-arrivals">New Arrivals</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="Home.html#featured-products">Featured Products</a>
+                        <a class="nav-link" href="../Home.html#featured-products">Featured Products</a>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">
                             Categories
                         </a>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="Men.html">Men's Fashion</a></li>
-                            <li><a class="dropdown-item" href="Women.html">Women's Fashion</a></li>
-                            <li><a class="dropdown-item" href="Electronics.html">Electronics</a></li>
+                            <li><a class="dropdown-item" href="Categories/Men.html">Men's Fashion</a></li>
+                            <li><a class="dropdown-item" href="Categories/Women.html">Women's Fashion</a></li>
+                            <li><a class="dropdown-item" href="Categories/Electronics.html">Electronics</a></li>
                         </ul>
                     </li>
                 </ul>
@@ -348,9 +348,9 @@
                 <div class="col-lg-2 col-md-4">
                     <h6>Shop</h6>
                     <ul class="list-unstyled">
-                        <li><a href="Men.html" class="text-muted text-decoration-none">Men's Fashion</a></li>
-                        <li><a href="Women.html" class="text-muted text-decoration-none">Women's Fashion</a></li>
-                        <li><a href="Electronics.html" class="text-muted text-decoration-none">Electronics</a></li>
+                        <li><a href="Categories/Men.html" class="text-muted text-decoration-none">Men's Fashion</a></li>
+                        <li><a href="Categories/Women.html" class="text-muted text-decoration-none">Women's Fashion</a></li>
+                        <li><a href="Categories/Electronics.html" class="text-muted text-decoration-none">Electronics</a></li>
                     </ul>
                 </div>
                 <div class="col-lg-2 col-md-4">
@@ -387,23 +387,7 @@
     <!-- Bootstrap JS and dependencies -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
-    
-    <script>
-        // Simple form submission handler
-        document.getElementById('shippingForm').addEventListener('submit', function(e) {
-            e.preventDefault();
-            // Here you would typically validate the form and proceed to payment
-            alert('Proceeding to payment...');
-            // window.location.href = 'payment.html';
-        });
 
-        // Payment method selection
-        document.querySelectorAll('.payment-method').forEach(method => {
-            method.addEventListener('click', function() {
-                document.querySelectorAll('.payment-method').forEach(m => m.classList.remove('active'));
-                this.classList.add('active');
-            });
-        });
-    </script>
+    <script src="script.js"></script>
 </body>
 </html>
