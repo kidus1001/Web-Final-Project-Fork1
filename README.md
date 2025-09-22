@@ -24,15 +24,20 @@ Style Hub is a modern full-stack modern E-commerce website that allows the user 
    * Hero Section
    * Contents with options (Featured Products, New Arrivals, Best Sellers)
    * Footer
+   
+4. **Categories Page**
+   * Categories for men, women, and electronics
+   * Products in each category
+   * Footer
 
-4. **Details Page**
+5. **Details Page**
    * Product Details
    * Add to Cart
    * Buy Now
    * Other related product items
    * Footer
 
-5. **Checkout Page**
+6. **Checkout Page**
    * Cart Items
    * Checkout
    * Payment
