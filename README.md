@@ -43,4 +43,10 @@ Style Hub is a modern full-stack modern E-commerce website that allows the user 
    * Payment
    * Delivery 
    * Footer
-   
+
+7. **Profile Page**
+   * User Profile
+   * Order History
+   * Wishlist
+   * Address Book
+   * Footer
