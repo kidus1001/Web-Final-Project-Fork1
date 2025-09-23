@@ -8,8 +8,12 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="../styles.css">
     <style>
         body {
+            margin: 0;
+            padding: 0;
             background-color: #f8f9fa;
         }
         .auth-container {
@@ -78,7 +82,7 @@
                 <div class="form-check mb-4">
                     <input class="form-check-input" type="checkbox" id="terms" required>
                     <label class="form-check-label" for="terms">
-                        I agree to the <a href="#" class="text-primary">Terms of Service</a> and <a href="#" class="text-primary">Privacy Policy</a>
+                        I agree to the <a href="../Documentation/terms.html" class="text-primary">Terms of Service</a> and <a href="../Documentation/privacy.html" class="text-primary">Privacy Policy</a>
                     </label>
                 </div>
                 <button type="submit" class="btn btn-primary mb-3">Create Account</button>
@@ -98,22 +102,6 @@
 
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-    <script>
-        document.getElementById('signupForm').addEventListener('submit', function(e) {
-            e.preventDefault();
-            const password = document.getElementById('password').value;
-            const confirmPassword = document.getElementById('confirmPassword').value;
-            
-            if (password !== confirmPassword) {
-                alert('Passwords do not match!');
-                return;
-            }
-            
-            // Add your signup logic here
-            console.log('Signup form submitted');
-            // Redirect to home page after successful signup
-            // window.location.href = 'home.html';
-        });
-    </script>
+    <script src="script.js"></script>
 </body>
 </html>

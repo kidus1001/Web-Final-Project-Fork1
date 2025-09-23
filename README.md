@@ -1,8 +1,10 @@
 # Project Description 
 Style Hub is a modern full-stack modern E-commerce website that allows the user to shop for products online and make purchases. It will have categories for men, women, electronics, and home. The overall Page structure should be like this: 
 
-# Tech Stack
-- HTML, CSS, Javascript, Node/Express.js, PostgreSQL, Bootstrap
+## Tech Stack
+- **Frontend**: HTML5, CSS3, JavaScript, Bootstrap 
+- **Backend**: Node.js, Express.js
+- **Database**: PostgreSQL
 
 # Site Map (Page Structure)
 
@@ -50,3 +52,42 @@ Style Hub is a modern full-stack modern E-commerce website that allows the user 
    * Wishlist
    * Address Book
    * Footer
+
+8. **Documentation Page**
+    * Terms of Service
+    * Privacy Policy
+    * Customer Service
+    * About Us
+    * Returns & Exchange
+    * FAQs
+
+# Project Structure
+
+```
+Front-end/
+│
+├── Auth/
+│   ├── login.html
+│   └── signup.html
+│
+├── Categories/
+│   ├── Electronics.html
+│   ├── Men.html
+│   └── Women.html
+│
+├── Documentation/
+│   ├── about.html
+│   ├── customer-service.html
+│   ├── faq.html
+│   ├── privacy.html
+│   ├── returns.html
+│   └── terms.html
+│
+├── Checkout.html
+├── Details.html
+├── Home.html
+├── Landing.html
+├── Profile.html
+├── styles.css
+└── README.md
+```
